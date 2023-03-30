@@ -1,6 +1,6 @@
 declare type PageVisibilityApi = {
     isSupported: () => boolean;
-    state: () => VisibilityState;
+    state: () => DocumentVisibilityState;
     addListener: (listener: EventListener) => void;
     removeListener: (listener: EventListener) => void;
 };

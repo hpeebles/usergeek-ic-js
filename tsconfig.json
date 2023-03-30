@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
+    "module": "es2020",
     "lib": ["es2015", "dom"],
     "declaration": true,
     "sourceMap": true,
@@ -13,7 +13,5 @@
     "removeComments": false
   },
   "files": ["./src/index.ts"],
-  "exclude": [
-    "node_modules",
-  ]
+  "exclude": ["node_modules"]
 }
