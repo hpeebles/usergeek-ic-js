@@ -2,7 +2,7 @@
   "name": "usergeek-ic-js",
   "version": "1.0.3",
   "description": "Usergeek Javascript SDK for Internet Computer",
-  "main": "./lib/es5/index.js",
+  "main": "./lib/index.js",
   "author": "Usergeek <support@usergeek.com>",
   "directories": {
     "lib": "lib"
@@ -19,9 +19,12 @@
   "files": [
     "lib/**/*"
   ],
+  "dependencies": {
+    "@dfinity/agent": "^0.20.2",
+    "@dfinity/auth-client": "^0.20.2",
+    "@dfinity/principal": "^0.20.2"
+  },
   "devDependencies": {
-    "@dfinity/agent": "^0.15.4",
-    "@dfinity/auth-client": "^0.15.4",
     "assert": "2.0.0",
     "buffer": "6.0.3",
     "html-webpack-plugin": "5.3.1",
@@ -36,8 +39,7 @@
   "scripts": {
     "clean": "npm run clean_lib",
     "clean_lib": "rm -rf lib",
-    "build": "npm run clean && npm run build_es5 && npm run copy_did",
-    "build_es5": "tsc --project tsconfig.json",
-    "copy_did": "cp src/canisters/*.did.d.ts lib/es5/canisters"
+    "build": "npm run clean && tsc --project tsconfig.json && npm run copy_did",
+    "copy_did": "cp src/canisters/*.did.d.ts lib/canisters"
   }
 }

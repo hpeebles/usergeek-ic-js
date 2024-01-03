@@ -1,0 +1,1 @@
+{"version":3,"file":"Configuration.js","sourceRoot":"","sources":["../../src/tracker/Configuration.ts"],"names":[],"mappings":";;;AAkBa,QAAA,iBAAiB,GAAG;IAC7B,iBAAiB,EAAE,CAAC,oBAA4C,EAAiB,EAAE;QAC/E,OAAO;YACH,kBAAkB,EAAE,EAAE;YACtB,mBAAmB,EAAE,CAAC,GAAG,IAAI;YAC7B,wBAAwB,EAAE,IAAI;YAC9B,4BAA4B,EAAE,CAAC;YAC/B,aAAa,EAAE,KAAK;YACpB,GAAG,oBAAoB;SAC1B,CAAA;IACL,CAAC;CACJ,CAAA"}
