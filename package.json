@@ -20,9 +20,9 @@
     "lib/**/*"
   ],
   "dependencies": {
-    "@dfinity/agent": "^0.20.2",
-    "@dfinity/auth-client": "^0.20.2",
-    "@dfinity/principal": "^0.20.2"
+    "@dfinity/agent": "^2.0.0",
+    "@dfinity/auth-client": "^2.0.0",
+    "@dfinity/principal": "^2.0.0"
   },
   "devDependencies": {
     "assert": "2.0.0",
