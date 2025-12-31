@@ -1,4 +1,4 @@
-import {Principal} from "@dfinity/principal";
+import {Principal} from "@icp-sdk/core/principal";
 import {PageVisibilityTracker} from "./pageVisibility/PageVisibilityTracker";
 import {ApiParameters, APIService, GetAnalyticsReceiverApiResult} from "./APIService";
 import {isOk, warn, log} from "./utils";

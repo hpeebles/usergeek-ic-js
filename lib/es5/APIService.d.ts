@@ -1,4 +1,4 @@
-import { Principal } from '@dfinity/principal';
+import { Principal } from '@icp-sdk/core/principal';
 import { UGError, UGResult } from "./utils";
 import { AnalyticsReceiverApiView } from "./AnalyticsStoreApi";
 export declare const timeoutBetweenRetriesSec = 2;

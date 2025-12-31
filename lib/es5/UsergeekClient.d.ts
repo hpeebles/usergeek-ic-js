@@ -1,4 +1,4 @@
-import { Principal } from "@dfinity/principal";
+import { Principal } from "@icp-sdk/core/principal";
 import { Configuration as EventsTrackerConfiguration } from "./tracker/Configuration";
 /**
  * Usergeek debug configuration

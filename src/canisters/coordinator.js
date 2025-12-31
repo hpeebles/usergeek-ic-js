@@ -1,4 +1,4 @@
-import {Actor, HttpAgent} from "@dfinity/agent";
+import {Actor, HttpAgent} from "@icp-sdk/core/agent";
 
 const idlFactory = ({IDL}) => {
     const HelloResult = IDL.Rec();

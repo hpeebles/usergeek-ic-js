@@ -20,8 +20,8 @@
     "lib/**/*"
   ],
   "peerDependencies": {
-    "@dfinity/agent": ">=1.4.0",
-    "@dfinity/auth-client": ">=1.4.0"
+    "@icp-sdk/core": ">=5.0.0",
+    "@icp-sdk/auth": ">=5.0.0"
   },
   "devDependencies": {
     "assert": "2.0.0",

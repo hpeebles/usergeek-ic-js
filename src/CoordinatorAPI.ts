@@ -1,5 +1,5 @@
-import {AnonymousIdentity} from "@dfinity/agent";
-import {Principal} from '@dfinity/principal';
+import {AnonymousIdentity} from "@icp-sdk/core/agent";
+import {Principal} from '@icp-sdk/core/principal';
 import {HelloResult, Topology, TopologyId} from "./canisters/coordinator.did";
 import {createCanisterActor} from "./canisters/coordinator";
 import {APIStorage} from "./APIStorage";

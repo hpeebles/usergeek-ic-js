@@ -1,4 +1,4 @@
-import { Principal } from "@dfinity/principal";
+import { Principal } from "@icp-sdk/core/principal";
 declare const okResultKey = "ok";
 declare const errResultKey = "err";
 declare const proceedResultKey = "proceed";

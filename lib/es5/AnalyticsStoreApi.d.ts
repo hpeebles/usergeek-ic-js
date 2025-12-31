@@ -1,4 +1,4 @@
-import { Principal } from "@dfinity/principal";
+import { Principal } from "@icp-sdk/core/principal";
 import { Packet } from "./canisters/analyticsStore.did";
 import { AccessToken } from "./canisters/clientRegistry.did";
 import { UGError, UGResult } from "./utils";

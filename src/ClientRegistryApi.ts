@@ -1,5 +1,5 @@
-import {Principal} from '@dfinity/principal';
-import {AnonymousIdentity} from "@dfinity/agent";
+import {Principal} from '@icp-sdk/core/principal';
+import {AnonymousIdentity} from "@icp-sdk/core/agent";
 import {createCanisterActor} from './canisters/clientRegistry';
 import {_SERVICE, AccessToken, AnalyticsReceiver, GetAnalyticsReceiverError, GetAnalyticsReceiverResult, RegisterClientError, RegisterClientResult} from './canisters/clientRegistry.did';
 import {createErrFatal, createErrRestart, createErrResult, createErrRetry, createOkResult, delayPromise, getSharedFunctionDataPrincipal, hasOwnProperty, isErr, isErrTemporarilyUnavailable, isErrWrongTopology, isOk, isProceed, log, UGError, UGResult, warn} from "./utils";

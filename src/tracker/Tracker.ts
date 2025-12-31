@@ -1,4 +1,4 @@
-import {Principal} from "@dfinity/principal";
+import {Principal} from "@icp-sdk/core/principal";
 import {ApiParameters, GetAnalyticsReceiverApiResult} from "../APIService";
 import {createErrResult, createOkResult, hasOwnProperty, isOk, UGResult, UsergeekUtils, warn, log} from "../utils";
 import {ReportsStorage} from "./ReportsStorage";

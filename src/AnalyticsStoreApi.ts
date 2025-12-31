@@ -1,9 +1,9 @@
-import {Principal} from "@dfinity/principal";
+import {Principal} from "@icp-sdk/core/principal";
 import {createCanisterActor} from "./canisters/analyticsStore";
 import {_SERVICE, AnalyticsReceiverApi, AnalyticsReceiverApiError, CollectPacketResult, CollectPacketResultError, GetAnalyticsReceiverApiResult, Packet, PacketRejectedItem, ValidatePacketResult} from "./canisters/analyticsStore.did";
 import {AccessToken} from "./canisters/clientRegistry.did";
 import {createErrFatal, createErrRetry, createOkResult, delayPromise, getSharedFunctionData, hasOwnProperty, isErr, isErrApi, isErrTemporarilyUnavailable, isOk, log, UGError, UGResult, warn} from "./utils";
-import {AnonymousIdentity} from "@dfinity/agent";
+import {AnonymousIdentity} from "@icp-sdk/core/agent";
 import {ANALYTICS_STORE_RETRIES, ApiParameters, getTimeout} from "./APIService";
 
 export type AnalyticsReceiverApiView = {

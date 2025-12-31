@@ -1,4 +1,4 @@
-import {Principal} from '@dfinity/principal';
+import {Principal} from '@icp-sdk/core/principal';
 import {CoordinatorApi, isAnalyticsReceiver, isClientRegistry} from "./CoordinatorAPI";
 import {ClientRegistryApi, ClientRegistryParameters, ClientRegistryResponse} from "./ClientRegistryApi";
 import {createErrFatal, createOkResult, delayPromise, isErr, isOk, log, UGError, UGResult, warn} from "./utils";
