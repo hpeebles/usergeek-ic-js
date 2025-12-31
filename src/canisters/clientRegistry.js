@@ -126,9 +126,9 @@ const idlFactory = ({IDL}) => {
 
 /**
  *
- * @param {string | import("@dfinity/principal").Principal} canisterId Canister ID of Agent
- * @param {{agentOptions?: import("@dfinity/agent").HttpAgentOptions; actorOptions?: import("@dfinity/agent").ActorConfig}} [options]
- * @return {import("@dfinity/agent").ActorSubclass<import("src/canisters/clientRegistry.did.d.ts")._SERVICE>}
+ * @param {string | import("@icp-sdk/core/principal").Principal} canisterId Canister ID of Agent
+ * @param {{agentOptions?: import("@icp-sdk/core/agent").HttpAgentOptions; actorOptions?: import("@icp-sdk/core/agent").ActorConfig}} [options]
+ * @return {import("@icp-sdk/core/agent").ActorSubclass<import("src/canisters/clientRegistry.did.d.ts")._SERVICE>}
  */
 const createActor = (canisterId, options) => {
     const agent = new HttpAgent({...options?.agentOptions});
@@ -152,9 +152,9 @@ const createActor = (canisterId, options) => {
 /**
  *
  * @param {string} canisterId
- * @param {import("@dfinity/agent").Identity} identity
+ * @param {import("@icp-sdk/core/agent").Identity} identity
  * @param {string} host
- * @return {import("@dfinity/agent").ActorSubclass<import("src/canisters/clientRegistry.did.d.ts")._SERVICE>}
+ * @return {import("@icp-sdk/core/agent").ActorSubclass<import("src/canisters/clientRegistry.did.d.ts")._SERVICE>}
  */
 export const createCanisterActor = (canisterId, identity, host) => {
     return createActor(canisterId, {
